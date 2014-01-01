@@ -1,9 +1,9 @@
 require "money"
+require 'money/core_extensions'
 require "money-rails/configuration"
 require "money-rails/money"
 require "money-rails/version"
 require 'money-rails/hooks'
-require 'money/core_extension'
 
 module MoneyRails
   extend Configuration
