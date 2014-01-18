@@ -1,6 +1,7 @@
 require 'active_support/concern'
 require 'active_support/core_ext/array/extract_options'
 require 'active_support/deprecation/reporting'
+require 'monetize/core_extensions'
 
 module MoneyRails
   module ActiveRecord
